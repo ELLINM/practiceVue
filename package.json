@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "volar-service-vetur": "^0.0.17",
     "vue": "^3.4.15",
     "vue-simple-search-dropdown": "^1.0.1"
   },
