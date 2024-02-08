@@ -15,6 +15,7 @@
   },
   components: {
     DropDown : DropDown,
+    Input : Input,
   }
 }
 </script>
@@ -28,7 +29,8 @@
   <body>
     <DropDown />
     <br>
-    <Input validType="password" ref="current_password" label="사용중인 비밀번호" type="password" placeholder="사용중인 비밀번호를 입력해주세요"/>
+    <Input />
+    <br>
   </body>
 </template>
 
