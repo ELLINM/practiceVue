@@ -25,6 +25,17 @@
         <br>
         <span>Check: {{ checkedNames }}</span>
     </div>
+    <br>
+    <p>Radio</p>
+    <div id='example-4'>
+    <input type="radio" id="one" value="One" v-model="picked">
+    <label for="one">One</label>
+    <br>
+    <input type="radio" id="two" value="Two" v-model="picked">
+    <label for="two">Two</label>
+    <br>
+    <span>Choice: {{ picked }}</span>
+</div>
 </template>
 
 <script>
@@ -36,7 +47,8 @@ export default {
             message: [],
             message2: [],
             checked: [],
-            checkedNames: []
+            checkedNames: [],
+            picked: []
         }
     },
 };

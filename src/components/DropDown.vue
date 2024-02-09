@@ -22,6 +22,7 @@
             {{ option.name || option.id || '-' }}
         </div>
       </div>
+      <span>selected: {{selected}}</span>
     </div>
   </template>
   
