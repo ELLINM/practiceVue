@@ -1,6 +1,7 @@
 <script>
   import DropDown from '@/components/DropDown.vue'
   import Input from '@/components/Input.vue'
+  import Table from '@/components/Table.vue'
 
   export default {
   name: 'App',
@@ -16,6 +17,7 @@
   components: {
     DropDown : DropDown,
     Input : Input,
+    Table : Table,
   }
 }
 </script>
@@ -30,6 +32,8 @@
     <DropDown />
     <br>
     <Input />
+    <br>
+    <Table />
     <br>
   </body>
 </template>
