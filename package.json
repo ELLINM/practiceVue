@@ -11,6 +11,7 @@
   "dependencies": {
     "volar-service-vetur": "^0.0.17",
     "vue": "^3.4.15",
+    "vue-router": "^4.2.5",
     "vue-simple-search-dropdown": "^1.0.1"
   },
   "devDependencies": {
